@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SW_Design_For_TheWatch/hello_world_small.c&apos; to &apos;SW_Clock_StopWatch.c&apos;" description="Rename resource &apos;hello_world_small.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="hello_world_small.c" name="SW_Clock_StopWatch.c" stamp="1510412631568" updateReferences="true"/>
+</session>

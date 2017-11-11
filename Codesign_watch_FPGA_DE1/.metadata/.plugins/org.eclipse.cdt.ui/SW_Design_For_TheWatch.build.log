@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project SW_Design_For_TheWatch ****
+
+make all 
+Info: Building ../SW_Design_For_TheWatch_bsp/
+make --no-print-directory -C ../SW_Design_For_TheWatch_bsp/
+[BSP build complete]
+[SW_Design_For_TheWatch build complete]
+
+**** Build Finished ****

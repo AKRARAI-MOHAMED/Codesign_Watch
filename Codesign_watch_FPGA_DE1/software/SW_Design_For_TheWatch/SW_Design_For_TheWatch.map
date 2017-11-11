@@ -1,0 +1,707 @@
+Archive member included because of file (symbol)
+
+c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                              obj/default/hello_world_small.o (__divsi3)
+../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_register.o)
+                              obj/default/hello_world_small.o (alt_irq_register)
+../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                              ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_register.o) (alt_irq_active)
+../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_load.o)
+                              ../SW_Design_For_TheWatch_bsp//obj/HAL/src/crt0.o (alt_load)
+../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_main.o)
+                              ../SW_Design_For_TheWatch_bsp//obj/HAL/src/crt0.o (alt_main)
+../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_usleep.o)
+                              obj/default/hello_world_small.o (usleep)
+../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_main.o) (alt_sys_init)
+../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                              ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_usleep.o) (alt_busy_sleep)
+../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev.o)
+                              ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_list)
+../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                              ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_errno.o)
+                              ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev_llist_insert.o) (alt_errno)
+../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                              ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_register.o) (alt_irq_entry)
+../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                              ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_register.o) (alt_irq_handler)
+../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                              ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_qsys_irq_init)
+../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                              ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+                              ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev_llist_insert.o) (errno)
+c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+                              ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_busy_sleep.o) (__mulsi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_handler.o)
+edge_capture        0x4               obj/default/hello_world_small.o
+errno               0x4               c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x00800000         0x00000020
+SDRAM            0x00800020         0x007fffe0
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ../SW_Design_For_TheWatch_bsp//obj/HAL/src/crt0.o
+                0x0080000c                exit = _exit
+LOAD obj/default/hello_world_small.o
+LOAD c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libstdc++.a
+LOAD c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libm.a
+LOAD c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a
+START GROUP
+LOAD c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a
+LOAD c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a
+LOAD ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a
+END GROUP
+LOAD c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a
+                0x00800000                __alt_mem_SDRAM = 0x800000
+
+.entry          0x00800000       0x20
+ *(.entry)
+ .entry         0x00800000       0x20 ../SW_Design_For_TheWatch_bsp//obj/HAL/src/crt0.o
+                0x00800000                __reset
+                0x0080000c                _exit
+
+.exceptions     0x00800020      0x128
+                0x00800020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x00800020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x00800020        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                0x00800020                alt_irq_entry
+ .exceptions.entry.label
+                0x00800020        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                0x00800020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x00800020       0x54 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x00800074       0x10 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x00800084        0x4 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x00800088        0x4 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x0080008c        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x0080008c        0x8 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x00800094        0x4 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x00800098        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x00800098        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x00800098       0x54 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x008000ec       0x5c ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x008000ec                alt_irq_handler
+                0x00800148                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x00800020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x00800148      0x824
+                0x00800148                PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00800148       0x3c ../SW_Design_For_TheWatch_bsp//obj/HAL/src/crt0.o
+                0x00800148                _start
+ .text          0x00800184      0x37c obj/default/hello_world_small.o
+                0x008001d4                handle_timer_interrupts
+                0x00800298                handle_key_interrupts
+                0x008003a8                Update_HEX_display
+                0x008003e8                init_key
+                0x0080040c                init_timer
+                0x00800430                main
+ .text          0x00800500      0x14c c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                0x0080057c                __divsi3
+                0x008005dc                __modsi3
+                0x0080063c                __udivsi3
+                0x00800644                __umodsi3
+ .text          0x0080064c       0xa0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_register.o)
+                0x0080064c                alt_irq_register
+ .text          0x008006ec        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .text          0x008006ec       0x8c ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_load.o)
+                0x0080070c                alt_load
+ .text          0x00800778       0x2c ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_main.o)
+                0x00800778                alt_main
+ .text          0x008007a4        0x4 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_usleep.o)
+                0x008007a4                usleep
+ .text          0x008007a8       0x78 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x008007b4                alt_sys_init
+                0x00800800                alt_irq_init
+ .text          0x00800820       0x8c ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x00800820                alt_busy_sleep
+ .text          0x008008ac        0x4 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x008008ac                alt_dcache_flush_all
+ .text          0x008008b0        0x8 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x008008b8       0x70 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x008008b8                alt_dev_llist_insert
+ .text          0x00800928        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x00800928        0x4 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x00800928                alt_icache_flush_all
+ .text          0x0080092c        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .text          0x0080092c        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .text          0x0080092c        0x8 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                0x0080092c                altera_nios2_qsys_irq_init
+ .text          0x00800934        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .text          0x00800934        0x0 c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .text          0x00800934       0x38 c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+                0x00800934                __mulsi3
+ *(.gnu.warning.*)
+ *(.fini)
+                0x0080096c                PROVIDE (__etext, ABSOLUTE (.))
+                0x0080096c                PROVIDE (_etext, ABSOLUTE (.))
+                0x0080096c                PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x0080096c                . = ALIGN (0x4)
+                0x0080096c                PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                0x0080096c                PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                0x0080096c                PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                0x0080096c                PROVIDE (__init_array_end, ABSOLUTE (.))
+                0x0080096c                PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                0x0080096c                PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table)
+ *(.dynamic)
+                0x0080096c                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                0x0080096c                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x0080096c                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x0080096c                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x0080096c                . = ALIGN (0x4)
+
+.rodata         0x0080096c       0x44
+                0x0080096c                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x0080096c                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x0080096c       0x38 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .rodata.str1.4
+                0x008009a4        0xc ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev.o)
+ *(.rodata1)
+                0x008009b0                . = ALIGN (0x4)
+                0x008009b0                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x0080096c                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x008009b0      0x184 load address 0x00800b34
+                0x008009b0                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x008009b0                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x008009b0        0x0 ../SW_Design_For_TheWatch_bsp//obj/HAL/src/crt0.o
+ .data          0x008009b0       0x10 obj/default/hello_world_small.o
+                0x008009b0                seven_seg_table
+ .data          0x008009c0        0x0 c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .data          0x008009c0        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_register.o)
+ .data          0x008009c0        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .data          0x008009c0        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x008009c0        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x008009c0        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_usleep.o)
+ .data          0x008009c0       0xdc ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x00800a9c        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .data          0x00800a9c        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x00800a9c       0x58 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev.o)
+                0x00800a9c                alt_dev_null
+                0x00800ac4                alt_fd_list
+ .data          0x00800af4        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x00800af4        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x00800af4        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x00800af4        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .data          0x00800af4        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .data          0x00800af4        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .data          0x00800af4        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .data          0x00800af4        0x0 c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .data          0x00800af4        0x0 c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+                0x00808af4                _gp = ABSOLUTE ((. + 0x8000))
+                0x00808af4                PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x00800af4       0x20 obj/default/hello_world_small.o
+                0x00800af4                green_LED_ptr
+                0x00800af8                pushbutton_ptr
+                0x00800afc                sw_ptr
+                0x00800b00                timer_ptr
+                0x00800b04                ledr_ptr
+                0x00800b08                ledg_ptr
+                0x00800b0c                key_ptr
+                0x00800b10                ss
+ .sdata         0x00800b14        0x4 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x00800b14                alt_priority_mask
+ .sdata         0x00800b18        0x4 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x00800b18                JTAG_UART
+ .sdata         0x00800b1c       0x14 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev.o)
+                0x00800b1c                alt_fs_list
+                0x00800b24                alt_dev_list
+                0x00800b2c                alt_max_fd
+ .sdata         0x00800b30        0x4 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_errno.o)
+                0x00800b30                alt_errno
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x00800b34                . = ALIGN (0x4)
+                0x00800b34                _edata = ABSOLUTE (.)
+                0x00800b34                PROVIDE (edata, ABSOLUTE (.))
+                0x00800b34                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x00800b34                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x00800cb8      0x150
+                0x00800cb8                __bss_start = ABSOLUTE (.)
+                0x00800cb8                PROVIDE (__sbss_start, ABSOLUTE (.))
+                0x00800cb8                PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x00800cb8       0x38 obj/default/hello_world_small.o
+                0x00800cb8                hex_segments
+                0x00800cc0                hh
+                0x00800cc4                mm
+                0x00800cc8                ms
+                0x00800ccc                horloge
+                0x00800cd0                press
+                0x00800cd4                crono
+                0x00800cd8                msms
+                0x00800cdc                ssss
+                0x00800ce0                mmmm
+                0x00800ce4                cronometre
+                0x00800ce8                sw
+                0x00800cec                reglage
+ .sbss          0x00800cf0        0x4 obj/default/hello_world_small.o
+                0x00800cf0                edge_capture
+ .sbss          0x00800cf4        0x4 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x00800cf4                alt_irq_active
+ .sbss          0x00800cf8        0xc ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_main.o)
+                0x00800cf8                alt_argc
+                0x00800cfc                alt_argv
+                0x00800d00                alt_envp
+ .sbss          0x00800d04        0x4 c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+                0x00800d04                errno
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                0x00800d08                PROVIDE (__sbss_end, ABSOLUTE (.))
+                0x00800d08                PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00800d08        0x0 ../SW_Design_For_TheWatch_bsp//obj/HAL/src/crt0.o
+ .bss           0x00800d08        0x0 obj/default/hello_world_small.o
+ .bss           0x00800d08        0x0 c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .bss           0x00800d08        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_register.o)
+ .bss           0x00800d08        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x00800d08        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x00800d08        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x00800d08        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_usleep.o)
+ .bss           0x00800d08        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x00800d08        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .bss           0x00800d08        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x00800d08        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x00800d08        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x00800d08        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x00800d08        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x00800d08        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x00800d08        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x00800d08        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .bss           0x00800d08        0x0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x00800d08        0x0 c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .bss           0x00800d08        0x0 c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ *(COMMON)
+ COMMON         0x00800d08      0x100 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x00800d08                alt_irq
+                0x00800e08                . = ALIGN (0x4)
+                0x00800e08                __bss_end = ABSOLUTE (.)
+
+.SDRAM          0x00800e08        0x0
+                0x00800e08                PROVIDE (_alt_partition_SDRAM_start, ABSOLUTE (.))
+ *(.SDRAM. SDRAM.*)
+                0x00800e08                . = ALIGN (0x4)
+                0x00800e08                PROVIDE (_alt_partition_SDRAM_end, ABSOLUTE (.))
+                0x00800e08                _end = ABSOLUTE (.)
+                0x00800e08                end = ABSOLUTE (.)
+                0x00800e08                __alt_stack_base = ABSOLUTE (.)
+                0x00800e08                PROVIDE (_alt_partition_SDRAM_load_addr, LOADADDR (.SDRAM))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x26
+ *(.comment)
+ .comment       0x00000000       0x26 obj/default/hello_world_small.o
+                                 0x27 (size before relaxing)
+ .comment       0x00000000       0x27 c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .comment       0x00000000       0x27 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_register.o)
+ .comment       0x00000000       0x27 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x00000000       0x27 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x00000000       0x27 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x00000000       0x27 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_usleep.o)
+ .comment       0x00000000       0x27 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x00000000       0x27 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .comment       0x00000000       0x27 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x00000000       0x27 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev.o)
+ .comment       0x00000000       0x27 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x00000000       0x27 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x00000000       0x27 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x00000000       0x27 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x00000000       0x27 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .comment       0x00000000       0x27 c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .comment       0x00000000       0x27 c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x278
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 ../SW_Design_For_TheWatch_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x00000028       0x20 obj/default/hello_world_small.o
+ .debug_aranges
+                0x00000048       0x20 c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_aranges
+                0x00000068       0x20 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_register.o)
+ .debug_aranges
+                0x00000088       0x20 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x000000a8       0x20 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x000000c8       0x20 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_aranges
+                0x000000e8       0x20 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000108       0x20 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_aranges
+                0x00000128       0x20 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x00000148       0x20 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x00000168       0x20 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x00000188       0x20 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x000001a8       0x30 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x000001d8       0x28 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x00000200       0x20 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_aranges
+                0x00000220       0x38 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x00000258       0x20 c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+
+.debug_pubnames
+                0x00000000      0x4cc
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000      0x197 obj/default/hello_world_small.o
+ .debug_pubnames
+                0x00000197       0x48 c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_pubnames
+                0x000001df       0x27 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_register.o)
+ .debug_pubnames
+                0x00000206       0x3b ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_pubnames
+                0x00000241       0x1f ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_pubnames
+                0x00000260       0x46 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_pubnames
+                0x000002a6       0x1d ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_pubnames
+                0x000002c3       0x42 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_pubnames
+                0x00000305       0x25 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_pubnames
+                0x0000032a       0x2b ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_pubnames
+                0x00000355       0x63 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_pubnames
+                0x000003b8       0x2b ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_pubnames
+                0x000003e3       0x20 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_pubnames
+                0x00000403       0x2b ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_pubnames
+                0x0000042e       0x32 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_pubnames
+                0x00000460       0x31 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_pubnames
+                0x00000491       0x1c c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .debug_pubnames
+                0x000004ad       0x1f c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+
+.debug_info     0x00000000     0x1f94
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0x7f ../SW_Design_For_TheWatch_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x0000007f      0x3df obj/default/hello_world_small.o
+ .debug_info    0x0000045e      0x21c c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_info    0x0000067a      0x2f9 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_register.o)
+ .debug_info    0x00000973       0x92 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x00000a05      0x12e ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x00000b33      0x14f ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x00000c82       0xab ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_info    0x00000d2d      0x44f ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x0000117c       0xd0 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_info    0x0000124c       0x8d ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x000012d9      0x4dd ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x000017b6      0x1b7 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x0000196d       0xab ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x00001a18       0x8d ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x00001aa5       0x88 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x00001b2d      0x1a3 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x00001cd0       0xb7 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_info    0x00001d87       0x8e ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x00001e15       0x8c c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .debug_info    0x00001ea1       0xf3 c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+
+.debug_abbrev   0x00000000      0xcb4
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x12 ../SW_Design_For_TheWatch_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x00000012      0x13d obj/default/hello_world_small.o
+ .debug_abbrev  0x0000014f       0xe0 c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_abbrev  0x0000022f      0x190 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_register.o)
+ .debug_abbrev  0x000003bf       0x44 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x00000403       0x97 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x0000049a       0xad ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x00000547       0x5d ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_abbrev  0x000005a4      0x15f ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x00000703       0x79 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_abbrev  0x0000077c       0x3f ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x000007bb       0xd6 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x00000891      0x117 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x000009a8       0x5e ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x00000a06       0x3f ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x00000a45       0x12 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x00000a57      0x131 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x00000b88       0x64 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_abbrev  0x00000bec       0x12 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x00000bfe       0x3b c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x00000c39       0x7b c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+
+.debug_line     0x00000000     0x2a06
+ *(.debug_line)
+ .debug_line    0x00000000       0x66 ../SW_Design_For_TheWatch_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x00000066      0x5cf obj/default/hello_world_small.o
+ .debug_line    0x00000635      0x24f c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_line    0x00000884      0x292 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_register.o)
+ .debug_line    0x00000b16       0x72 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x00000b88      0x217 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x00000d9f      0x2d6 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x00001075      0x202 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_line    0x00001277      0x33c ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x000015b3      0x25e ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_line    0x00001811      0x1b5 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x000019c6      0x24c ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x00001c12      0x25c ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x00001e6e      0x1aa ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x00002018      0x1b5 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x000021cd       0x6b ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x00002238      0x240 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x00002478      0x1e7 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_line    0x0000265f       0xab ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x0000270a      0x1e2 c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .debug_line    0x000028ec      0x11a c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+
+.debug_frame    0x00000000      0x314
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x9c obj/default/hello_world_small.o
+ .debug_frame   0x0000009c       0x70 c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_frame   0x0000010c       0x20 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_register.o)
+ .debug_frame   0x0000012c       0x38 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x00000164       0x28 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x0000018c       0x20 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_frame   0x000001ac       0x50 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x000001fc       0x28 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_frame   0x00000224       0x20 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x00000244       0x20 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x00000264       0x28 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x0000028c       0x20 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x000002ac       0x28 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x000002d4       0x20 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_frame   0x000002f4       0x20 c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+
+.debug_str      0x00000000      0xb25
+ *(.debug_str)
+ .debug_str     0x00000000      0x230 obj/default/hello_world_small.o
+                                0x27d (size before relaxing)
+ .debug_str     0x00000230      0x10b c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                                0x1b4 (size before relaxing)
+ .debug_str     0x0000033b       0xfc ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_register.o)
+                                0x1ca (size before relaxing)
+ .debug_str     0x00000437       0x17 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                                0x111 (size before relaxing)
+ .debug_str     0x0000044e       0xe9 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_load.o)
+                                0x1d4 (size before relaxing)
+ .debug_str     0x00000537       0x75 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_main.o)
+                                0x181 (size before relaxing)
+ .debug_str     0x000005ac       0x27 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_usleep.o)
+                                0x10a (size before relaxing)
+ .debug_str     0x000005d3      0x16f ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                0x2c2 (size before relaxing)
+ .debug_str     0x00000742       0x42 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                                0x12d (size before relaxing)
+ .debug_str     0x00000784       0x34 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                0x117 (size before relaxing)
+ .debug_str     0x000007b8      0x12c ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev.o)
+                                0x2c7 (size before relaxing)
+ .debug_str     0x000008e4       0x71 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                                0x18e (size before relaxing)
+ .debug_str     0x00000955       0x14 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_errno.o)
+                                0x107 (size before relaxing)
+ .debug_str     0x00000969       0x34 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                0x117 (size before relaxing)
+ .debug_str     0x0000099d       0x3a ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                                0x17a (size before relaxing)
+ .debug_str     0x000009d7       0x3b ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                                0x147 (size before relaxing)
+ .debug_str     0x00000a12       0xdc c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+                                0x177 (size before relaxing)
+ .debug_str     0x00000aee       0x37 c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+                                0x175 (size before relaxing)
+
+.debug_loc      0x00000000      0x507
+ *(.debug_loc)
+ .debug_loc     0x00000000       0xbb obj/default/hello_world_small.o
+ .debug_loc     0x000000bb      0x1d2 c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_loc     0x0000028d       0x52 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_register.o)
+ .debug_loc     0x000002df       0x1f ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_loc     0x000002fe       0x1f ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_loc     0x0000031d       0x13 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_loc     0x00000330       0x64 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_loc     0x00000394       0x50 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_loc     0x000003e4       0x5b ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_loc     0x0000043f       0x79 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_loc     0x000004b8       0x4f c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x00000000       0x40
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x00000000       0x10 ../SW_Design_For_TheWatch_bsp//obj/HAL/src/crt0.o
+ .debug_alt_sim_info
+                0x00000010       0x30 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x01000000                __alt_data_end = 0x1000000
+                0x01000000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                0x00800e08                PROVIDE (__alt_stack_limit, __alt_stack_base)
+                0x00800e08                PROVIDE (__alt_heap_start, end)
+                0x01000000                PROVIDE (__alt_heap_limit, 0x1000000)
+OUTPUT(SW_Design_For_TheWatch.elf elf32-littlenios2)
+
+.debug_ranges   0x00000000       0xa8
+ .debug_ranges  0x00000000       0x20 ../SW_Design_For_TheWatch_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x00000020       0x18 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_ranges  0x00000038       0x28 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x00000060       0x18 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_ranges  0x00000078       0x30 ../SW_Design_For_TheWatch_bsp/\libhal_bsp.a(alt_exception_entry.o)

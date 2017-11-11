@@ -1,0 +1,285 @@
+Info: Starting: Create simulation model
+Info: ip-generate --project-directory=C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/ --output-directory=C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch/simulation/ --file-set=SIM_VHDL --report-file=sopcinfo:C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch.sopcinfo --report-file=html:C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch.html --report-file=sip:C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch/simulation/HW_Design_For_TheWatch.sip --report-file=csv:C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch.csv --report-file=spd:C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch.spd --report-file=cmp:C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch.cmp --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C20F484C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch.qsys
+Progress: Loading Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch.qsys
+Progress: Reading input file
+Progress: Adding CLOCK_50 [clock_source 13.0]
+Progress: Parameterizing module CLOCK_50
+Progress: Adding PLL [altera_up_clocks 13.0]
+Progress: Parameterizing module PLL
+Progress: Adding CPU [altera_nios2_qsys 13.0]
+Progress: Parameterizing module CPU
+Progress: Adding SDRAM [altera_avalon_new_sdram_controller 13.0.1.99.2]
+Progress: Parameterizing module SDRAM
+Progress: Adding sysid [altera_avalon_sysid_qsys 13.0]
+Progress: Parameterizing module sysid
+Progress: Adding JTAG_UART [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module JTAG_UART
+Progress: Adding KEY [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module KEY
+Progress: Adding SW [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module SW
+Progress: Adding LEDG [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module LEDG
+Progress: Adding LEDR [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module LEDR
+Progress: Adding HEX [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module HEX
+Progress: Adding timer_ms [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module timer_ms
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: HW_Design_For_TheWatch.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: HW_Design_For_TheWatch.sysid: Time stamp will be automatically updated when this component is generated.
+Info: HW_Design_For_TheWatch: Generating HW_Design_For_TheWatch "HW_Design_For_TheWatch" for SIM_VHDL
+Info: pipeline_bridge_swap_transform: After transform: 12 modules, 37 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_translator_transform: After transform: 24 modules, 73 connections
+Info: merlin_domain_transform: After transform: 48 modules, 198 connections
+Info: merlin_router_transform: After transform: 60 modules, 234 connections
+Info: merlin_burst_transform: After transform: 61 modules, 237 connections
+Info: reset_adaptation_transform: After transform: 62 modules, 239 connections
+Info: merlin_network_to_switch_transform: After transform: 85 modules, 287 connections
+Info: merlin_width_transform: After transform: 87 modules, 293 connections
+Info: merlin_mm_transform: After transform: 87 modules, 293 connections
+Info: merlin_interrupt_mapper_transform: After transform: 88 modules, 296 connections
+Info: PLL: Starting Generation of Required Clocks for DE-Series Boards
+Info: PLL: "HW_Design_For_TheWatch" instantiated altera_up_clocks "PLL"
+Info: CPU: Starting RTL generation for module 'HW_Design_For_TheWatch_CPU'
+Info: CPU:   Generation command is [exec C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=HW_Design_For_TheWatch_CPU --dir=C:/Users/Morya/AppData/Local/Temp/alt7481_6941264097506489581.dir/0002_CPU_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --vhdl --config=C:/Users/Morya/AppData/Local/Temp/alt7481_6941264097506489581.dir/0002_CPU_gen//HW_Design_For_TheWatch_CPU_processor_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/Morya/AppData/Local/Temp/alt7481_6941264097506489581.dir/0002_CPU_gen/    --bogus  ]
+Info: CPU: # 2017.11.11 14:14:03 (*) Starting Nios II generation
+Info: CPU: # 2017.11.11 14:14:03 (*)   Checking for plaintext license.
+Info: CPU: # 2017.11.11 14:15:33 (*)   Couldn't query license setup in Quartus directory C:/altera/13.0sp1/quartus
+Info: CPU: # 2017.11.11 14:15:33 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: CPU: # 2017.11.11 14:15:33 (*)   Plaintext license not found.
+Info: CPU: # 2017.11.11 14:15:33 (*)   No license required to generate encrypted Nios II/e.
+Info: CPU: # 2017.11.11 14:15:33 (*)   Elaborating CPU configuration settings
+Info: CPU: # 2017.11.11 14:15:33 (*)   Creating all objects for CPU
+Info: CPU: # 2017.11.11 14:15:36 (*)   Creating 'C:/Users/Morya/AppData/Local/Temp/alt7481_6941264097506489581.dir/0002_CPU_gen//HW_Design_For_TheWatch_CPU_nios2_waves.do'
+Info: CPU: # 2017.11.11 14:15:36 (*)   Generating RTL from CPU objects
+Info: CPU: # 2017.11.11 14:15:36 (*)   Creating plain-text RTL
+Info: CPU: # 2017.11.11 14:15:43 (*) Done Nios II generation
+Info: CPU: Done RTL generation for module 'HW_Design_For_TheWatch_CPU'
+Info: CPU: "HW_Design_For_TheWatch" instantiated altera_nios2_qsys "CPU"
+Info: SDRAM: Starting RTL generation for module 'HW_Design_For_TheWatch_SDRAM'
+Info: SDRAM:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=HW_Design_For_TheWatch_SDRAM --dir=C:/Users/Morya/AppData/Local/Temp/alt7481_6941264097506489581.dir/0003_SDRAM_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --vhdl --config=C:/Users/Morya/AppData/Local/Temp/alt7481_6941264097506489581.dir/0003_SDRAM_gen//HW_Design_For_TheWatch_SDRAM_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/Morya/AppData/Local/Temp/alt7481_6941264097506489581.dir/0003_SDRAM_gen/  ]
+Info: SDRAM: Done RTL generation for module 'HW_Design_For_TheWatch_SDRAM'
+Info: SDRAM: "HW_Design_For_TheWatch" instantiated altera_avalon_new_sdram_controller "SDRAM"
+Info: sysid: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: sysid: Generated simulation model HW_Design_For_TheWatch_sysid.vho
+Info: sysid: "HW_Design_For_TheWatch" instantiated altera_avalon_sysid_qsys "sysid"
+Info: JTAG_UART: Starting RTL generation for module 'HW_Design_For_TheWatch_JTAG_UART'
+Info: JTAG_UART:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=HW_Design_For_TheWatch_JTAG_UART --dir=C:/Users/Morya/AppData/Local/Temp/alt7481_6941264097506489581.dir/0007_JTAG_UART_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --vhdl --config=C:/Users/Morya/AppData/Local/Temp/alt7481_6941264097506489581.dir/0007_JTAG_UART_gen//HW_Design_For_TheWatch_JTAG_UART_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/Morya/AppData/Local/Temp/alt7481_6941264097506489581.dir/0007_JTAG_UART_gen/  ]
+Info: JTAG_UART: Done RTL generation for module 'HW_Design_For_TheWatch_JTAG_UART'
+Info: JTAG_UART: "HW_Design_For_TheWatch" instantiated altera_avalon_jtag_uart "JTAG_UART"
+Info: KEY: Starting Generation of Parallel Port
+Info: KEY: "HW_Design_For_TheWatch" instantiated altera_up_avalon_parallel_port "KEY"
+Info: SW: Starting Generation of Parallel Port
+Info: SW: "HW_Design_For_TheWatch" instantiated altera_up_avalon_parallel_port "SW"
+Info: LEDG: Starting Generation of Parallel Port
+Info: LEDG: "HW_Design_For_TheWatch" instantiated altera_up_avalon_parallel_port "LEDG"
+Info: LEDR: Starting Generation of Parallel Port
+Info: LEDR: "HW_Design_For_TheWatch" instantiated altera_up_avalon_parallel_port "LEDR"
+Info: HEX: Starting Generation of Parallel Port
+Info: HEX: "HW_Design_For_TheWatch" instantiated altera_up_avalon_parallel_port "HEX"
+Info: timer_ms: Starting RTL generation for module 'HW_Design_For_TheWatch_timer_ms'
+Info: timer_ms:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=HW_Design_For_TheWatch_timer_ms --dir=C:/Users/Morya/AppData/Local/Temp/alt7481_6941264097506489581.dir/0013_timer_ms_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --vhdl --config=C:/Users/Morya/AppData/Local/Temp/alt7481_6941264097506489581.dir/0013_timer_ms_gen//HW_Design_For_TheWatch_timer_ms_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/Morya/AppData/Local/Temp/alt7481_6941264097506489581.dir/0013_timer_ms_gen/  ]
+Info: timer_ms: Done RTL generation for module 'HW_Design_For_TheWatch_timer_ms'
+Info: timer_ms: "HW_Design_For_TheWatch" instantiated altera_avalon_timer "timer_ms"
+Info: CPU_instruction_master_translator: "HW_Design_For_TheWatch" instantiated altera_merlin_master_translator "CPU_instruction_master_translator"
+Info: CPU_jtag_debug_module_translator: "HW_Design_For_TheWatch" instantiated altera_merlin_slave_translator "CPU_jtag_debug_module_translator"
+Info: CPU_instruction_master_translator_avalon_universal_master_0_agent: "HW_Design_For_TheWatch" instantiated altera_merlin_master_agent "CPU_instruction_master_translator_avalon_universal_master_0_agent"
+Info: CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent: "HW_Design_For_TheWatch" instantiated altera_merlin_slave_agent "CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: Generated simulation model HW_Design_For_TheWatch_CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo.vho
+Info: CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "HW_Design_For_TheWatch" instantiated altera_avalon_sc_fifo "CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: SDRAM_s1_translator_avalon_universal_slave_0_agent_rsp_fifo: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: SDRAM_s1_translator_avalon_universal_slave_0_agent_rsp_fifo: Generated simulation model HW_Design_For_TheWatch_SDRAM_s1_translator_avalon_universal_slave_0_agent_rsp_fifo.vho
+Info: SDRAM_s1_translator_avalon_universal_slave_0_agent_rsp_fifo: "HW_Design_For_TheWatch" instantiated altera_avalon_sc_fifo "SDRAM_s1_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: SDRAM_s1_translator_avalon_universal_slave_0_agent_rdata_fifo: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: SDRAM_s1_translator_avalon_universal_slave_0_agent_rdata_fifo: Generated simulation model HW_Design_For_TheWatch_SDRAM_s1_translator_avalon_universal_slave_0_agent_rdata_fifo.vho
+Info: SDRAM_s1_translator_avalon_universal_slave_0_agent_rdata_fifo: "HW_Design_For_TheWatch" instantiated altera_avalon_sc_fifo "SDRAM_s1_translator_avalon_universal_slave_0_agent_rdata_fifo"
+Warning: Parallel compilation is not licensed and has been disabled
+Info: addr_router: "HW_Design_For_TheWatch" instantiated altera_merlin_router "addr_router"
+Warning: Parallel compilation is not licensed and has been disabled
+Info: addr_router_001: "HW_Design_For_TheWatch" instantiated altera_merlin_router "addr_router_001"
+Warning: Parallel compilation is not licensed and has been disabled
+Info: id_router: "HW_Design_For_TheWatch" instantiated altera_merlin_router "id_router"
+Warning: Parallel compilation is not licensed and has been disabled
+Info: id_router_001: "HW_Design_For_TheWatch" instantiated altera_merlin_router "id_router_001"
+Warning: Parallel compilation is not licensed and has been disabled
+Info: id_router_002: "HW_Design_For_TheWatch" instantiated altera_merlin_router "id_router_002"
+Info: burst_adapter: "HW_Design_For_TheWatch" instantiated altera_merlin_burst_adapter "burst_adapter"
+Info: rst_controller: "HW_Design_For_TheWatch" instantiated altera_reset_controller "rst_controller"
+Info: cmd_xbar_demux: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: cmd_xbar_demux: Generated simulation model HW_Design_For_TheWatch_cmd_xbar_demux.vho
+Info: cmd_xbar_demux: "HW_Design_For_TheWatch" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: cmd_xbar_demux_001: Generated simulation model HW_Design_For_TheWatch_cmd_xbar_demux_001.vho
+Info: cmd_xbar_demux_001: "HW_Design_For_TheWatch" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_mux: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: cmd_xbar_mux: Generated simulation model HW_Design_For_TheWatch_cmd_xbar_mux.vho
+Info: cmd_xbar_mux: "HW_Design_For_TheWatch" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: rsp_xbar_demux_002: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: rsp_xbar_demux_002: Generated simulation model HW_Design_For_TheWatch_rsp_xbar_demux_002.vho
+Info: rsp_xbar_demux_002: "HW_Design_For_TheWatch" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_002"
+Info: rsp_xbar_mux: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: rsp_xbar_mux: Generated simulation model HW_Design_For_TheWatch_rsp_xbar_mux.vho
+Info: rsp_xbar_mux: "HW_Design_For_TheWatch" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: rsp_xbar_mux_001: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: rsp_xbar_mux_001: Generated simulation model HW_Design_For_TheWatch_rsp_xbar_mux_001.vho
+Info: rsp_xbar_mux_001: "HW_Design_For_TheWatch" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: width_adapter: "HW_Design_For_TheWatch" instantiated altera_merlin_width_adapter "width_adapter"
+Info: Reusing file C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch/simulation/submodules/mentor/altera_merlin_address_alignment.sv
+Info: Reusing file C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch/simulation/submodules/mentor/altera_merlin_burst_uncompressor.sv
+Info: Reusing file C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch/simulation/submodules/aldec/altera_merlin_address_alignment.sv
+Info: Reusing file C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch/simulation/submodules/aldec/altera_merlin_burst_uncompressor.sv
+Info: irq_mapper: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: irq_mapper: Generated simulation model HW_Design_For_TheWatch_irq_mapper.vho
+Info: irq_mapper: "HW_Design_For_TheWatch" instantiated altera_irq_mapper "irq_mapper"
+Info: HW_Design_For_TheWatch: Done HW_Design_For_TheWatch" with 34 modules, 200 files, 9838445 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch.spd --output-directory=C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch/simulation/
+Info: Doing: ip-make-simscript --spd=C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch.spd --output-directory=C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch/simulation/
+Info: Generating the following file(s) for MODELSIM simulator in C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Skipping VCS script generation since VHDL file $QUARTUS_INSTALL_DIR/eda/sim_lib/altera_syn_attributes.vhd is required for simulation
+Info: Generating the following file(s) for VCSMX simulator in C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	26 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERAPRO simulator in C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: Finished: Create Modelsim Project.
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/ --output-directory=C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch.sopcinfo --report-file=html:C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch.html --report-file=qip:C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch/synthesis/HW_Design_For_TheWatch.qip --report-file=cmp:C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch.cmp --report-file=svd --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C20F484C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch.qsys --language=VHDL
+Progress: Loading Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch.qsys
+Progress: Reading input file
+Progress: Adding CLOCK_50 [clock_source 13.0]
+Progress: Parameterizing module CLOCK_50
+Progress: Adding PLL [altera_up_clocks 13.0]
+Progress: Parameterizing module PLL
+Progress: Adding CPU [altera_nios2_qsys 13.0]
+Progress: Parameterizing module CPU
+Progress: Adding SDRAM [altera_avalon_new_sdram_controller 13.0.1.99.2]
+Progress: Parameterizing module SDRAM
+Progress: Adding sysid [altera_avalon_sysid_qsys 13.0]
+Progress: Parameterizing module sysid
+Progress: Adding JTAG_UART [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module JTAG_UART
+Progress: Adding KEY [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module KEY
+Progress: Adding SW [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module SW
+Progress: Adding LEDG [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module LEDG
+Progress: Adding LEDR [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module LEDR
+Progress: Adding HEX [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module HEX
+Progress: Adding timer_ms [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module timer_ms
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: HW_Design_For_TheWatch.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: HW_Design_For_TheWatch.sysid: Time stamp will be automatically updated when this component is generated.
+Info: HW_Design_For_TheWatch: Generating HW_Design_For_TheWatch "HW_Design_For_TheWatch" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 12 modules, 37 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_translator_transform: After transform: 24 modules, 73 connections
+Info: merlin_domain_transform: After transform: 48 modules, 198 connections
+Info: merlin_router_transform: After transform: 60 modules, 234 connections
+Info: merlin_burst_transform: After transform: 61 modules, 237 connections
+Info: reset_adaptation_transform: After transform: 62 modules, 239 connections
+Info: merlin_network_to_switch_transform: After transform: 85 modules, 287 connections
+Info: merlin_width_transform: After transform: 87 modules, 293 connections
+Info: merlin_mm_transform: After transform: 87 modules, 293 connections
+Info: merlin_interrupt_mapper_transform: After transform: 88 modules, 296 connections
+Info: PLL: Starting Generation of Required Clocks for DE-Series Boards
+Info: PLL: "HW_Design_For_TheWatch" instantiated altera_up_clocks "PLL"
+Info: CPU: Starting RTL generation for module 'HW_Design_For_TheWatch_CPU'
+Info: CPU:   Generation command is [exec C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=HW_Design_For_TheWatch_CPU --dir=C:/Users/Morya/AppData/Local/Temp/alt7481_6941264097506489581.dir/0068_CPU_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/Morya/AppData/Local/Temp/alt7481_6941264097506489581.dir/0068_CPU_gen//HW_Design_For_TheWatch_CPU_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: CPU: # 2017.11.11 14:17:58 (*) Starting Nios II generation
+Info: CPU: # 2017.11.11 14:17:58 (*)   Checking for plaintext license.
+Info: CPU: # 2017.11.11 14:17:59 (*)   Couldn't query license setup in Quartus directory C:/altera/13.0sp1/quartus
+Info: CPU: # 2017.11.11 14:17:59 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: CPU: # 2017.11.11 14:17:59 (*)   Plaintext license not found.
+Info: CPU: # 2017.11.11 14:17:59 (*)   No license required to generate encrypted Nios II/e.
+Info: CPU: # 2017.11.11 14:17:59 (*)   Elaborating CPU configuration settings
+Info: CPU: # 2017.11.11 14:17:59 (*)   Creating all objects for CPU
+Info: CPU: # 2017.11.11 14:18:02 (*)   Generating RTL from CPU objects
+Info: CPU: # 2017.11.11 14:18:02 (*)   Creating plain-text RTL
+Info: CPU: # 2017.11.11 14:18:05 (*) Done Nios II generation
+Info: CPU: Done RTL generation for module 'HW_Design_For_TheWatch_CPU'
+Info: CPU: "HW_Design_For_TheWatch" instantiated altera_nios2_qsys "CPU"
+Info: SDRAM: Starting RTL generation for module 'HW_Design_For_TheWatch_SDRAM'
+Info: SDRAM:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=HW_Design_For_TheWatch_SDRAM --dir=C:/Users/Morya/AppData/Local/Temp/alt7481_6941264097506489581.dir/0069_SDRAM_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/Morya/AppData/Local/Temp/alt7481_6941264097506489581.dir/0069_SDRAM_gen//HW_Design_For_TheWatch_SDRAM_component_configuration.pl  --do_build_sim=0  ]
+Info: SDRAM: Done RTL generation for module 'HW_Design_For_TheWatch_SDRAM'
+Info: SDRAM: "HW_Design_For_TheWatch" instantiated altera_avalon_new_sdram_controller "SDRAM"
+Info: sysid: "HW_Design_For_TheWatch" instantiated altera_avalon_sysid_qsys "sysid"
+Info: JTAG_UART: Starting RTL generation for module 'HW_Design_For_TheWatch_JTAG_UART'
+Info: JTAG_UART:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=HW_Design_For_TheWatch_JTAG_UART --dir=C:/Users/Morya/AppData/Local/Temp/alt7481_6941264097506489581.dir/0071_JTAG_UART_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/Morya/AppData/Local/Temp/alt7481_6941264097506489581.dir/0071_JTAG_UART_gen//HW_Design_For_TheWatch_JTAG_UART_component_configuration.pl  --do_build_sim=0  ]
+Info: JTAG_UART: Done RTL generation for module 'HW_Design_For_TheWatch_JTAG_UART'
+Info: JTAG_UART: "HW_Design_For_TheWatch" instantiated altera_avalon_jtag_uart "JTAG_UART"
+Info: KEY: Starting Generation of Parallel Port
+Info: KEY: "HW_Design_For_TheWatch" instantiated altera_up_avalon_parallel_port "KEY"
+Info: SW: Starting Generation of Parallel Port
+Info: SW: "HW_Design_For_TheWatch" instantiated altera_up_avalon_parallel_port "SW"
+Info: LEDG: Starting Generation of Parallel Port
+Info: LEDG: "HW_Design_For_TheWatch" instantiated altera_up_avalon_parallel_port "LEDG"
+Info: LEDR: Starting Generation of Parallel Port
+Info: LEDR: "HW_Design_For_TheWatch" instantiated altera_up_avalon_parallel_port "LEDR"
+Info: HEX: Starting Generation of Parallel Port
+Info: HEX: "HW_Design_For_TheWatch" instantiated altera_up_avalon_parallel_port "HEX"
+Info: timer_ms: Starting RTL generation for module 'HW_Design_For_TheWatch_timer_ms'
+Info: timer_ms:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=HW_Design_For_TheWatch_timer_ms --dir=C:/Users/Morya/AppData/Local/Temp/alt7481_6941264097506489581.dir/0077_timer_ms_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/Morya/AppData/Local/Temp/alt7481_6941264097506489581.dir/0077_timer_ms_gen//HW_Design_For_TheWatch_timer_ms_component_configuration.pl  --do_build_sim=0  ]
+Info: timer_ms: Done RTL generation for module 'HW_Design_For_TheWatch_timer_ms'
+Info: timer_ms: "HW_Design_For_TheWatch" instantiated altera_avalon_timer "timer_ms"
+Info: CPU_instruction_master_translator: "HW_Design_For_TheWatch" instantiated altera_merlin_master_translator "CPU_instruction_master_translator"
+Info: CPU_jtag_debug_module_translator: "HW_Design_For_TheWatch" instantiated altera_merlin_slave_translator "CPU_jtag_debug_module_translator"
+Info: CPU_instruction_master_translator_avalon_universal_master_0_agent: "HW_Design_For_TheWatch" instantiated altera_merlin_master_agent "CPU_instruction_master_translator_avalon_universal_master_0_agent"
+Info: CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent: "HW_Design_For_TheWatch" instantiated altera_merlin_slave_agent "CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "HW_Design_For_TheWatch" instantiated altera_avalon_sc_fifo "CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "HW_Design_For_TheWatch" instantiated altera_merlin_router "addr_router"
+Info: addr_router_001: "HW_Design_For_TheWatch" instantiated altera_merlin_router "addr_router_001"
+Info: id_router: "HW_Design_For_TheWatch" instantiated altera_merlin_router "id_router"
+Info: id_router_001: "HW_Design_For_TheWatch" instantiated altera_merlin_router "id_router_001"
+Info: id_router_002: "HW_Design_For_TheWatch" instantiated altera_merlin_router "id_router_002"
+Info: burst_adapter: "HW_Design_For_TheWatch" instantiated altera_merlin_burst_adapter "burst_adapter"
+Info: rst_controller: "HW_Design_For_TheWatch" instantiated altera_reset_controller "rst_controller"
+Info: cmd_xbar_demux: "HW_Design_For_TheWatch" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: "HW_Design_For_TheWatch" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_mux: "HW_Design_For_TheWatch" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: rsp_xbar_demux_002: "HW_Design_For_TheWatch" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_002"
+Info: rsp_xbar_mux: "HW_Design_For_TheWatch" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_001: "HW_Design_For_TheWatch" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: Reusing file C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: width_adapter: "HW_Design_For_TheWatch" instantiated altera_merlin_width_adapter "width_adapter"
+Info: Reusing file C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/altera/13.0sp1/Codesign_watch_FPGA_DE1/HW_Design_For_TheWatch/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: irq_mapper: "HW_Design_For_TheWatch" instantiated altera_irq_mapper "irq_mapper"
+Info: HW_Design_For_TheWatch: Done HW_Design_For_TheWatch" with 32 modules, 142 files, 3072398 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="DE1_watch">
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE1_watch|HW_Design_For_TheWatch:u0|HW_Design_For_TheWatch_JTAG_UART:jtag_uart|HW_Design_For_TheWatch_JTAG_UART_scfifo_r:the_HW_Design_For_TheWatch_JTAG_UART_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE1_watch|HW_Design_For_TheWatch:u0|HW_Design_For_TheWatch_CPU:cpu|HW_Design_For_TheWatch_CPU_nios2_oci:the_HW_Design_For_TheWatch_CPU_nios2_oci|HW_Design_For_TheWatch_CPU_nios2_ocimem:the_HW_Design_For_TheWatch_CPU_nios2_ocimem|HW_Design_For_TheWatch_CPU_ociram_sp_ram_module:HW_Design_For_TheWatch_CPU_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_8v81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE1_watch|HW_Design_For_TheWatch:u0|HW_Design_For_TheWatch_CPU:cpu|HW_Design_For_TheWatch_CPU_register_bank_a_module:HW_Design_For_TheWatch_CPU_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_4ih1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE1_watch|HW_Design_For_TheWatch:u0|HW_Design_For_TheWatch_CPU:cpu|HW_Design_For_TheWatch_CPU_register_bank_b_module:HW_Design_For_TheWatch_CPU_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_5ih1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE1_watch|HW_Design_For_TheWatch:u0|HW_Design_For_TheWatch_JTAG_UART:jtag_uart|HW_Design_For_TheWatch_JTAG_UART_scfifo_w:the_HW_Design_For_TheWatch_JTAG_UART_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_irq_mapper.vho"
+   type="VHDL"
+   library="irq_mapper" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/mentor/altera_merlin_width_adapter.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="width_adapter"
+   simulator="modelsim" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/mentor/altera_merlin_address_alignment.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="width_adapter"
+   simulator="modelsim" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/mentor/altera_merlin_burst_uncompressor.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="width_adapter"
+   simulator="modelsim" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/aldec/altera_merlin_width_adapter.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="width_adapter"
+   simulator="riviera" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/aldec/altera_merlin_address_alignment.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="width_adapter"
+   simulator="riviera" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/aldec/altera_merlin_burst_uncompressor.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="width_adapter"
+   simulator="riviera" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_rsp_xbar_mux_001.vho"
+   type="VHDL"
+   library="rsp_xbar_mux_001" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_rsp_xbar_mux.vho"
+   type="VHDL"
+   library="rsp_xbar_mux" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_rsp_xbar_demux_002.vho"
+   type="VHDL"
+   library="rsp_xbar_demux_002" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_cmd_xbar_mux.vho"
+   type="VHDL"
+   library="cmd_xbar_mux" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_cmd_xbar_demux_001.vho"
+   type="VHDL"
+   library="cmd_xbar_demux_001" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_cmd_xbar_demux.vho"
+   type="VHDL"
+   library="cmd_xbar_demux" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/mentor/altera_reset_controller.v"
+   type="VERILOG_ENCRYPT"
+   library="rst_controller"
+   simulator="modelsim" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/mentor/altera_reset_synchronizer.v"
+   type="VERILOG_ENCRYPT"
+   library="rst_controller"
+   simulator="modelsim" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/aldec/altera_reset_controller.v"
+   type="VERILOG_ENCRYPT"
+   library="rst_controller"
+   simulator="riviera" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/aldec/altera_reset_synchronizer.v"
+   type="VERILOG_ENCRYPT"
+   library="rst_controller"
+   simulator="riviera" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/mentor/altera_merlin_burst_adapter.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="burst_adapter"
+   simulator="modelsim" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/mentor/altera_merlin_address_alignment.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="burst_adapter"
+   simulator="modelsim" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/aldec/altera_merlin_burst_adapter.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="burst_adapter"
+   simulator="riviera" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/aldec/altera_merlin_address_alignment.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="burst_adapter"
+   simulator="riviera" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_id_router_002.vho"
+   type="VHDL"
+   library="id_router_002" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_id_router_001.vho"
+   type="VHDL"
+   library="id_router_001" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_id_router.vho"
+   type="VHDL"
+   library="id_router" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_addr_router_001.vho"
+   type="VHDL"
+   library="addr_router_001" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_addr_router.vho"
+   type="VHDL"
+   library="addr_router" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_SDRAM_s1_translator_avalon_universal_slave_0_agent_rdata_fifo.vho"
+   type="VHDL"
+   library="SDRAM_s1_translator_avalon_universal_slave_0_agent_rdata_fifo" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_SDRAM_s1_translator_avalon_universal_slave_0_agent_rsp_fifo.vho"
+   type="VHDL"
+   library="SDRAM_s1_translator_avalon_universal_slave_0_agent_rsp_fifo" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo.vho"
+   type="VHDL"
+   library="CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/mentor/altera_merlin_slave_agent.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+   simulator="modelsim" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/mentor/altera_merlin_burst_uncompressor.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+   simulator="modelsim" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/aldec/altera_merlin_slave_agent.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+   simulator="riviera" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/aldec/altera_merlin_burst_uncompressor.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+   simulator="riviera" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/mentor/altera_merlin_master_agent.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="CPU_instruction_master_translator_avalon_universal_master_0_agent"
+   simulator="modelsim" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/aldec/altera_merlin_master_agent.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="CPU_instruction_master_translator_avalon_universal_master_0_agent"
+   simulator="riviera" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/mentor/altera_merlin_slave_translator.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="CPU_jtag_debug_module_translator"
+   simulator="modelsim" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/aldec/altera_merlin_slave_translator.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="CPU_jtag_debug_module_translator"
+   simulator="riviera" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/mentor/altera_merlin_master_translator.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="CPU_instruction_master_translator"
+   simulator="modelsim" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/aldec/altera_merlin_master_translator.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="CPU_instruction_master_translator"
+   simulator="riviera" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_timer_ms.vhd"
+   type="VHDL"
+   library="timer_ms" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_HEX.vhd"
+   type="VHDL"
+   library="HEX" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_LEDR.vhd"
+   type="VHDL"
+   library="LEDR" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_LEDG.vhd"
+   type="VHDL"
+   library="LEDG" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_SW.vhd"
+   type="VHDL"
+   library="SW" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_KEY.vhd"
+   type="VHDL"
+   library="KEY" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_JTAG_UART.vhd"
+   type="VHDL"
+   library="JTAG_UART" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_sysid.vho"
+   type="VHDL"
+   library="sysid" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_SDRAM.vhd"
+   type="VHDL"
+   library="SDRAM" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_CPU.sdc"
+   type="SDC"
+   library="CPU" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_CPU.vhd"
+   type="VHDL"
+   library="CPU" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_CPU_jtag_debug_module_sysclk.vhd"
+   type="VHDL"
+   library="CPU" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_CPU_jtag_debug_module_tck.vhd"
+   type="VHDL"
+   library="CPU" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_CPU_jtag_debug_module_wrapper.vhd"
+   type="VHDL"
+   library="CPU" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_CPU_nios2_waves.do"
+   type="OTHER"
+   library="CPU" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_CPU_ociram_default_contents.dat"
+   type="DAT"
+   library="CPU" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_CPU_ociram_default_contents.hex"
+   type="HEX"
+   library="CPU" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_CPU_ociram_default_contents.mif"
+   type="MIF"
+   library="CPU" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_CPU_oci_test_bench.vhd"
+   type="VHDL"
+   library="CPU" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_CPU_rf_ram_a.dat"
+   type="DAT"
+   library="CPU" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_CPU_rf_ram_a.hex"
+   type="HEX"
+   library="CPU" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_CPU_rf_ram_a.mif"
+   type="MIF"
+   library="CPU" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_CPU_rf_ram_b.dat"
+   type="DAT"
+   library="CPU" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_CPU_rf_ram_b.hex"
+   type="HEX"
+   library="CPU" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_CPU_rf_ram_b.mif"
+   type="MIF"
+   library="CPU" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_CPU_test_bench.vhd"
+   type="VHDL"
+   library="CPU" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/submodules/HW_Design_For_TheWatch_PLL.vhd"
+   type="VHDL"
+   library="PLL" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/HW_Design_For_TheWatch.vhd"
+   type="VHDL" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/hw_design_for_thewatch_cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent.vhd"
+   type="VHDL" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/hw_design_for_thewatch_sdram_s1_translator_avalon_universal_slave_0_agent.vhd"
+   type="VHDL" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/hw_design_for_thewatch_width_adapter.vhd"
+   type="VHDL" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/hw_design_for_thewatch_width_adapter_001.vhd"
+   type="VHDL" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/hw_design_for_thewatch_cpu_instruction_master_translator.vhd"
+   type="VHDL" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/hw_design_for_thewatch_cpu_data_master_translator.vhd"
+   type="VHDL" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/hw_design_for_thewatch_cpu_jtag_debug_module_translator.vhd"
+   type="VHDL" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/hw_design_for_thewatch_sdram_s1_translator.vhd"
+   type="VHDL" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/hw_design_for_thewatch_sysid_control_slave_translator.vhd"
+   type="VHDL" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/hw_design_for_thewatch_jtag_uart_avalon_jtag_slave_translator.vhd"
+   type="VHDL" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/hw_design_for_thewatch_key_avalon_parallel_port_slave_translator.vhd"
+   type="VHDL" />
+ <file
+   path="HW_Design_For_TheWatch/simulation/hw_design_for_thewatch_timer_ms_s1_translator.vhd"
+   type="VHDL" />
+ <topLevel name="HW_Design_For_TheWatch" />
+ <deviceFamily name="cycloneii" />
+</simPackage>

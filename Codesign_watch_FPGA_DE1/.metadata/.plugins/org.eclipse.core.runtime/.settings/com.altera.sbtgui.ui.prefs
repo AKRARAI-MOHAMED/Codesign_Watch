@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newSoftwareExampleWizardPage.defaultLocation=C\:\\altera\\13.0sp1\\Codesign_watch_FPGA_DE1\\software\\SW_Design_For_TheWatch
+newSoftwareExampleWizardPage.sopcinfoFile=C\:\\altera\\13.0sp1\\Codesign_watch_FPGA_DE1\\HW_Design_For_TheWatch.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=C\:\\altera\\13.0sp1\\Codesign_watch_FPGA_DE1\\software\\SW_Design_For_TheWatch_bsp
