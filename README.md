@@ -1,9 +1,9 @@
 # Codesign_Watc
 
 Author             : AKRARAI MOHAMED, Undergraduate engineer at the National Institute of Posts and
-                     Telecommunications, Rabat, Morocco.
+                     Telecommunications, Rabat, Morocco. <br />
 Description        : This code implements in Embedded C a configurable software clock & StopWatch on NIOS II
-                   Softcore Processor. The embedded hardware platform was developed on DE1 Altera starter board.
+                   Softcore Processor. The embedded hardware platform was developed on DE1 Altera starter board.<br />
                The Embedded Hardware platform is composed of the following components:
                 - 50 Mhz Clock
                 - PLL
